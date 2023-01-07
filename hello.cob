@@ -1,0 +1,11 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. HELLO.
+       DATA DIVISION.
+           WORKING-STORAGE SECTION.
+           01 WS-NUM1 PIC S9(3)V9(2).
+           01 WS-NUM2 PIC PPP999.
+
+       PROCEDURE DIVISION.
+           DISPLAY "WS-NUM1 : "WS-NUM1.
+           DISPLAY "WS-NUM2 : "WS-NUM2.
+       STOP RUN.
